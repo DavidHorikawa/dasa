@@ -1,0 +1,95 @@
+[
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "profile_path",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "name",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "job",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "department",
+        "type": "STRING"
+      },
+      {
+        "mode": "REQUIRED",
+        "name": "id",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE", "name": "gender",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "credit_id",
+        "type": "STRING"
+      }
+    ],
+    "mode": "REPEATED",
+    "name": "crew",
+    "type": "RECORD"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "profile_path",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "order",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "REQUIRED",
+        "name": "id",
+        "type": "INTEGER"
+ },
+      {
+        "mode": "NULLABLE",
+        "name": "gender",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "REQUIRED",
+        "name": "credit_id",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "character",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "name",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "cast_id",
+        "type": "INTEGER"
+      }
+    ],
+    "mode": "REPEATED",
+    "name": "cast",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "id",
+    "type": "INTEGER"
+  }
+]

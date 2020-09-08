@@ -1,0 +1,1 @@
+SELECT * FROM `dasa-project-01-288519.dasa_movie_dataset_01.produtora_maior_lucro_dez_anos_vw`;

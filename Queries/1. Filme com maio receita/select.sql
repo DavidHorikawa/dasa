@@ -1,0 +1,1 @@
+SELECT * FROM `dasa-project-01-288519.dasa_movie_dataset_01.filme_maior_receita_vw`

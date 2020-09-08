@@ -1,0 +1,1 @@
+SELECT * FROM `dasa-project-01-288519.dasa_movie_dataset_01.diretor_maior_orcamento_vw`;

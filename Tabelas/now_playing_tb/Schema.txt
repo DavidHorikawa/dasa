@@ -1,0 +1,64 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "release_date",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "overview",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "vote_average",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "title",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "popularity",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "REPEATED",
+    "name": "genre_ids",
+    "type": "INTEGER"
+  },
+  {
+    },
+  {
+    "mode": "REQUIRED",
+    "name": "id",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "backdrop_path",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "original_title",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "poster_path",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "video",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "vote_count",
+    "type": "INTEGER"
+  }
+]
